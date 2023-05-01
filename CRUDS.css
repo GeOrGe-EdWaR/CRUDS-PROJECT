@@ -1,0 +1,90 @@
+*{
+    scroll-behavior: smooth;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1.5px;
+}
+body{
+    scroll-behavior: smooth;
+    background: #222;
+    color: #fff;
+}
+.crud{
+    width: 80%;
+    margin: auto;
+}
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 10px;
+}
+input{
+    width: 100%;
+    height:30px;
+    outline: none;
+    border: none;
+    background: #111;
+    margin: 4px 0 ;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    transition: 0.5s;
+}
+input:focus{
+    background: black;
+    transform: scale(1.1);
+}
+.price input{
+    width: 20%;
+}
+#total{
+    background: black;
+
+    padding: 7px;
+    border-radius: 10px;
+}
+#total::before{
+    content: "total : ";
+}
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background: black;
+    padding: 7px;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+button:hover{
+    background: rgb(112, 110, 110);
+    transform: scale(1.1);
+    letter-spacing: 3px;
+}
+.btnSeaech{
+    display: flex;
+    justify-content: space-between;
+}
+.btnSeaech button{
+    width: 40%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10 0 ;
+}
+table th{
+    text-transform: uppercase;
+}
+th,td{
+    padding: 5px;
+}
+#deleteAll{
+    margin: 10px;
+    width: 100%;
+}
